@@ -21,3 +21,9 @@ This application is built following the Node.JS Quickstart section of the [Googl
 1. Navigate to the [Google Calendar Quickstart](https://developers.google.com/calendar/quickstart/nodejs?authuser=1) guide for Node.JS.
 2. Complete the first two steps in the Quickstart guide
     1. Download the `credentials.json` file and add to root directory
+3. Update the `volunteer.json` file with all persons you intend to include on calendar invites
+4. Add the `csv` file you will be using to import all your events and title it `data.csv`.
+    1. Ensure your events have at least Start and End dates, and a Summary. These are Google Calendar requirements
+5. In the `eventBuilder.js` file update the `buildEvent` and `buildAttendees` based on the column headers and values you plan on using. 
+
+This application was originally created to solve the need to easily create events for Sunday morning church volunteer areas and the existing columns you can see in the `eventBuilder.js` file represent such. They have been left there as an example for you.

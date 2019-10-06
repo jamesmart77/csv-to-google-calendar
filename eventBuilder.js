@@ -25,7 +25,7 @@ async function parseCsv() {
 }
 
 
-function buildEvent(data) {
+buildEvent = (data) => {
     const { 
         date, 
         bibleText, 
