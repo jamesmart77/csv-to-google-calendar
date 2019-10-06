@@ -61,7 +61,7 @@ typings/
 .next
 
 # CSV
-.csv
+data.csv
 
 # Credentials
 credentials.json
