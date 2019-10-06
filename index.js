@@ -104,7 +104,7 @@ async function createEvents(auth) {
     calendar.events.insert({
       auth: auth,
       calendarId: 'primary',
-      sendNotifications: false,
+      sendNotifications: true, // all attendees will receive an initial email of the event
       resource: event,
     }, function(err, data) {
       if (err) {

@@ -27,3 +27,9 @@ This application is built following the Node.JS Quickstart section of the [Googl
 5. In the `eventBuilder.js` file update the `buildEvent` and `buildAttendees` based on the column headers and values you plan on using. 
 
 This application was originally created to solve the need to easily create events for Sunday morning church volunteer areas and the existing columns you can see in the `eventBuilder.js` file represent such. They have been left there as an example for you.
+
+
+### Run It
+1. Once you have completed the initial setup and are ready to upload your events, simply run `node .`
+    1. You should be prompted initially with authorization from Google so you can acquire a Token. 
+    2. Then, if you have appropriately configured, all your events will be published on the appropriate Google Calendar.
