@@ -1,0 +1,33 @@
+{
+  "name": "csv-to-google-calendar",
+  "version": "1.0.0",
+  "description": "With the limitations of Google Calendar import not allowing the upload of event attendees and notification overrides, this repository was conceived!",
+  "main": "index.js",
+  "dependencies": {
+    "csvtojson": "^2.0.10",
+    "googleapis": "^39.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jamesmart77/csv-to-google-calendar.git"
+  },
+  "keywords": [
+    "google",
+    "google-calendar",
+    "csv",
+    "csvtojson",
+    "import",
+    "event",
+    "events"
+  ],
+  "author": "James Martineau",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jamesmart77/csv-to-google-calendar/issues"
+  },
+  "homepage": "https://github.com/jamesmart77/csv-to-google-calendar#readme"
+}
